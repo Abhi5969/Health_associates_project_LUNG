@@ -131,6 +131,7 @@ header {
 
 .nav_list {
     display: flex;
+    align-items: center;
     padding-right: 150px;
 }
 
@@ -444,6 +445,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .review_heading span {
@@ -453,6 +455,7 @@ h2 {
     padding-bottom: 10px;
     padding-top: 50px;
     text-align: center;
+    font-family: "Lato", sans-serif;
 }
 
 .review_heading p {
@@ -555,6 +558,7 @@ h2 {
 .btn_viewall {
     border: 1px solid rgb(15, 15, 15);
     padding: 5px 15px;
+    font-family: "Lato", sans-serif;
     border-radius: 15px;
     color: #0f0f0f;
 }
@@ -577,6 +581,12 @@ h2 {
     background-repeat: no-repeat;
     border-radius: 30px;
 }
+
+/* .ellipse {
+    position: absolute;
+    background-image: linear-gradient(to top, #2863CA, #0744AE);
+    right: -5%;
+} */
 
 .appoint_content {
     position: absolute;
@@ -634,10 +644,11 @@ h2 {
     font-size: 25px;
 }
 
-.social_icons a i:hover{
+.social_icons a i:hover {
     color: #021C49;
     background-color: #ffffff;
 }
+
 .footer_content p {
     color: #ffffff;
     font-size: 26px;
